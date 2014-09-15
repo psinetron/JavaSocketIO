@@ -4,7 +4,9 @@ JavaSocketIO
 Websocket client for Android
 
 
-How to use:
+#How to use:#
+
+<
 SocketIO socketio = new SocketIO() {
         @Override
         public void onConnect() {
@@ -23,3 +25,4 @@ SocketIO socketio = new SocketIO() {
     };
     
     socketio.Connect("192.168.0.1", 9000);
+>
