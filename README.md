@@ -8,21 +8,21 @@ Websocket client for Android
 
 
         SocketIO socketio = new SocketIO() {
-        @Override
-        public void onConnect() {
-
-        }
-
-        @Override
-        public void onDisconnect() {
-
-        }
-
-        @Override
-        public void onMessage(String message) {
-             Log.d("===Server Answer====",message);
-        }
-    };
+                @Override
+                public void onConnect() {
+        
+                }
+        
+                @Override
+                public void onDisconnect() {
+        
+                }
+        
+                @Override
+                public void onMessage(String message) {
+                     Log.d("===Server Answer====",message);
+                }
+        };
     
-    socketio.Connect("192.168.0.1", 9000);
+        socketio.Connect("192.168.0.1", 9000);
 
